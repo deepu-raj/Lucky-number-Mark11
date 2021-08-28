@@ -16,9 +16,9 @@ var numString = dobInputValue.replaceAll("-","");
      }
     var remainder = sum%luckyNumValue;
       if(remainder===0){
-        error.innerText = "This number carries luck for you 😊"
+        error.innerText = luckyNumValue + "  carries luck for you 😊"
       } else {
-        error.innerText = "This number does not carry luck for you 🙄 "
+        error.innerText = luckyNumValue + "   does not carry luck for you 🙄 "
       }
         
    }
